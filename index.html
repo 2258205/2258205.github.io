@@ -1,0 +1,65 @@
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sakika Empukuji">
+    <meta name="keywords" content="heml, css, javascript">
+
+    <link rel="stylesheet" href="./CSS/main.css">
+
+    <title>第11回|Javascript</title>
+
+
+</head>
+
+
+<body>
+
+    <div class="con">
+        <header>
+            <h1 id="top">コンピュータ・リテラシーⅡ</h1>
+
+
+            <nav class="gnav">
+                <ul>
+                    <li>ホーム</li>
+                    <li>タグリファレンス</li>
+                    <li>問い合わせ</li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <section>
+                <h2>じゃんけん</h2>
+                <p>あなたの手を選んでください</p>
+
+                <button type="button" onclick="game(0)"><img src="img/janken_gu.png" alt="グー" width="200" height="200"></button>
+                <button type="button" onclick="game(1)"><img src="img/janken_choki.png" alt="チョキ" width="185" height="200"></button>
+                <button type="button" onclick="game(2)"><img src="img/janken_pa.png" alt="パー" width="217" height="200"></button>
+
+                <p id="hello">グー、チョキ、パー</p>
+                <img id="te" src="img/janken_boys.png" alt="初期画像" width="300" height="200">
+                <p id="aa">相手</p>
+                <p id="k">結果</p>
+
+
+            </section>
+
+        </main>
+
+
+
+        <footer>
+            Copyriter &copy; Empukuji Sakika, All Right Reserved.
+        </footer>
+    </div>
+
+  
+    <!-- 外部のjavascriptファイルを読み込む場合 -->
+    <script src="js/main.js"></script>
+
+   
+</body>
